@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Arial";
+
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+#home{
+    height:100vh;
+    width:100vw;
+    background:linear-gradient(90deg,#9BCAC4,#6699B9);
+    padding: 0.1px;
+}
+
+#home #nav{
+    position: fixed;
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap:5px;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+#home #nav a{
+
+    border: none;
+    border-radius: 50px;
+    font-family:"Arial";
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration:none;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 0.781);
+    padding: 8px 19px;
+    transition: all ease 0.8s;
+}
+
+#home #nav a:hover{
+    color: rgba(23, 23, 23, 0.74);
+    
+}
+
+#home p{
+    height:30vh;
+    width:32vw;
+    font-size: 3.5vw;
+    color: #0e2331d8;
+    text-align: center;
+    margin-top: 18vh;
+    margin-left: 15vw;
+}
+
+#home p span{
+    font-size:7.5vw ;
+}
+
+#home #a{
+    padding: 10px 25px;
+    margin-left: 26vw;
+    font-size: 20px;
+    font-weight: calc(500 + 50);
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(240, 248, 255, 0.77);
+    background-color: #3F7295;
+    text-decoration: none;
+}
+
+#home h2{
+    font-size: 80px;
+    color: #0e2331d8;
+    margin-top: -30vh;
+    margin-left:18vw;
+}
+
+#home img{
+    height: 80vh;
+    width: 43vw;
+    margin-top:-320px;
+    margin-left: 55vw;
+}
+/* #home #dhoni{
+    height: 70vh;
+    width: 41vw;
+    z-index: 2;
+    margin-bottom:-200px;
+    margin-left: 20vw;
+} */
+
+#intro{
+    height:100vh;
+    width:100vw;
+    background-color: #7DBCB1;
+    overflow: hidden;
+}
+
+#intro #circle{
+    height: 50vh;
+    width: 50vh;
+    border: none;
+    border-radius: 50%;
+    background-color: #6ca0988d;
+    margin-top:-15vh;
+    margin-left: -8vw;
+    padding: 0.1px;
+}
+
+#intro #circle h1{
+    color: rgba(240, 248, 255, 0.77);
+    height: 20vh;
+    width:20vw;
+    margin-top:50%;
+    margin-left: 50%;
+    font-size: 40px;
+    font-weight: 10;
+
+}
+
+#intro #dhoni2{
+    height: 40vh;
+    width: 23vw;
+    margin-top:-25vh;
+    margin-left:72vw;
+}
+
+#intro p{
+    height:25vh;
+    width: 40vw;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-left:4vw;
+    margin-top: -25vh;
+    background-color: rgba(240, 248, 255, 0.308);
+
+}
+
+#intro #dhoni3{
+    height: 45vh;
+    width: 25vw;
+    margin-top:4vh;
+    margin-left:10vw;
+}
+
+#intro ul{
+    height:50vh;
+    width:25vw;
+    font-size: 20px;
+    margin-top: -51vh;
+    margin-left: 45vw;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.404);
+}
+/* -------------------------------------------page3-------------- */
+#career{
+    height:100vh;
+    width:100vw;
+    background-color: #80cfc2d3;
+    background-image: url(./dhoni5-removebg-preview.png);
+    background-position: center;
+    background-size: 1200px 800px;
+    background-repeat: no-repeat;
+}
+#career h1{
+    font-size: 40px;
+    font-weight: 10;
+    color: rgba(240, 248, 255, 0.77);
+    height: 20vh;
+    width:20vw;
+    padding: 40px;
+}
+#box1{
+    height:30vh;
+    width: 70vw;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.308);
+    margin-left: 30px;
+}
+#box2{
+    height:22vh;
+    width: 70vw;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.308);
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+/* ==============page4------------------------ */
+#honors{
+    height:100vh;
+    width:100vw;
+    background-color: #69c0b2e7;
+    background-image: url(./Screen-Shot-2020-08-16-at-11.46.18-AM-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#honors h1{
+    font-size: 40px;
+    font-weight: 10;
+    color: rgba(240, 248, 255, 0.77);
+    padding: 35px;
+}
+#honors ul{
+   
+    font-size: 20px;
+    width: 80vw;
+    padding: 20px 40px;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.404);
+}
